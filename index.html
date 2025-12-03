@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="function-style.css">
+    <link rel="icon" type="image/x-icon" href="north-korea-32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<title>Pyongyang Web</title>
+
+    <div class="preheader">
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+    }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+
+
+    <header>
+        <a href="index.html" class=active><b>PYONGYANG HOME</b></a>
+        <nav>
+            <a href="visit.html">TOURISM</a>
+            <a href="news.html">NEWS/EVENTS</a>
+            <a href="#history">ABOUT & HISTORY</a>
+        </nav>
+    </header>
+
+
+    <body>
+        <main>
+            <div class="home-back">
+                <h1>Find what you need in North Korea's Capital.</h1>
+                <p><br></p>
+                <div class="home-buttons1">
+                    <button><b>Election Information</b></button>
+                    <button><b>Education Enrollment</b></button>
+                    <button><b>Language Help</b></button>
+
+                </div>
+                <div class="center-force">
+                <div class="latest-exterior"></div>
+                    <div class="latest">
+                        <h3><b><i>Latest News:</i></b></h3>
+                        <br>
+                        <div class="topHeadlineExt">
+                        <div class="topHeadline">
+                            <h4>Kim Jong-Un is Reelected as President!</h4>
+                            <p>Kim Jong Un wins with a stunning <u>100%</u> of<br>all total votes!</p>
+                            <h6>March, 2019 | <a href="news.html">Learn More</a></h6>
+                                </div>
+                            <div class="topHeadlineImage">
+                            <img src="kju1.png" width="80px" height="110px">
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+            <div id="history">
+                <h1>History of North Korea (Democratic People's Republic of Korea)</h1>
+                <p>Lorem Ipsum dolor et</p>
+            </div>
+        </main>
+
+        
+    <div id="popup">
+        <p>This website uses cookies to ensure a better user experience.</p>
+        <div class="cookieOptions">
+            <button id="decline">Reject Optional</button>
+            <button id="accept">Accept All</button>
+        </div>
+        <div class="preferencesTab" style="display: none;">
+            <p><b>Manage Preferences</b></p>
+            <p>You can adjust your settings for our cookie tracking.</p>
+            <label>
+                <input type="checkbox" checked disabled> Strictly Necessary Cookies (Always On)
+            </label>
+            <label>
+                <input type="checkbox" checked> Performance Cookies
+            </label>
+            <button id="savePreferences">Save Preferences</button>
+        </div>
+        <button id="managePreferences">Manage Preferences</button>
+
+    </div>
+    </body>
+
+    <footer>
+        <div class="leftFooter">
+            <p>PYONGYANG, NORTH KOREA</p>
+            <p>Site managed by &copy Lorem Ipsum Inc.</p>
+            <p>Translated using <a href="https://translate.google.com">Google</a></p>
+            <p>NKTA &copy 2025 All Rights Reserved</p>
+        </div>
+        <div class="rightFooter">
+            <p>Jobs</p>
+            <p>Services</p>
+            <p>Contact Us</p>
+            <p><i>North Korea Travel Agency&reg</i> Homepage</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+        const banner = document.getElementById('popup');
+        const acceptBtn = document.getElementById('accept');
+        const declineBtn = document.getElementById('decline');
+        const saveBtn = document.getElementById('savePreferences');
+        const manageToggleBtn = document.getElementById('managePreferences');
+        const optionsContainer = document.querySelector('.cookieOptions');
+        const preferencesContainer = document.querySelector('.preferencesTab');
+
+        // Made with help from AI
+        const closeBanner = () => {
+            banner.style.display = 'none';
+            console.log("Cookies: Banner closed. Actions taken.");
+        };
+
+        acceptBtn.addEventListener('click', closeBanner);
+        declineBtn.addEventListener('click', closeBanner);
+        saveBtn.addEventListener('click', closeBanner);
+
+        manageToggleBtn.addEventListener('click', () => {
+            if (preferencesContainer.style.display === 'none') {
+                preferencesContainer.style.display = 'block';
+                optionsContainer.style.display = 'none';
+                manageToggleBtn.textContent = 'Hide Preferences';
+            } else {
+                preferencesContainer.style.display = 'none';
+                optionsContainer.style.display = 'block';
+                manageToggleBtn.textContent = 'Manage Preferences';
+            }
+        });
+        });
+    </script>
+</html>

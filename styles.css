@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.thin-font {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.regular {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+
+.preheader{
+    padding-top: 3px;;
+    background-color: rgb(74, 101, 255);
+}
+header{
+    padding: 30px 40px 40px 40px;
+    background-color: rgb(74, 101, 255);
+    color: white;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+nav{
+    display: flex;
+    align-content: flex-end;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a.active{
+    text-decoration: overline;
+}
+header a:hover{
+    text-decoration: underline;
+    text-decoration-color: gainsboro;
+    text-decoration-style:dotted;
+    text-underline-offset: 5px;
+}
+nav a.active{
+    text-decoration: overline;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    background-color: black;
+    color: white;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.leftFooter{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.rightFooter{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer a{
+    color: lightskyblue
+}
+
+button{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    transition: transform ease-in-out .1s;
+}
+
+button:hover{
+    width: 160px;
+    height: 20px;
+    background-color: gainsboro;
+    transform: scale(1.1)
+}
+
+.home-back{
+    font-family: "Public Sans", sans-serif;
+    background-image: url(pyongyang\ back1.png);
+    padding: 45px;
+}
+
+.home-buttons1{
+    font-family:"Public Sans", sans-serif;
+    display: flex;
+    gap: 35px;
+}
+.home-buttons1:active{
+    border-color: blue;
+}
+
+.latest-exterior{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.latest{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.80);
+    padding: 20px;
+    width: 650px;
+    min-height: 200px;
+    border-radius: 20px;
+}
+.topHeadlineExt{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: white;
+    padding: 15px;
+    width: 500px;
+    border-radius: 25px;
+    border: 1px, rgb(234, 234, 234), solid;
+}
+
+.topHeadline{
+    margin-left: 25px;
+}
+.topHeadlineImage{
+    margin-right: 25px;
+}
+.topHeadlineImage img{
+    border-radius: 8px;
+}
+
+.topHeadline h4{
+    line-height: 2.2;
+}
+.topHeadline h6{
+    line-height: 2.5;
+}
+.topHeadline a{
+    color: black
+}
+
+.home-back hr{
+    border: none;
+    margin: 50px 0px 30px 0px
+}
+
+.center-force{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#history{
+    padding: 45px;
+    background-color:rgb(255, 224, 224)
+}

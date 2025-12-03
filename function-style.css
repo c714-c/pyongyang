@@ -1,0 +1,105 @@
+#popup{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: "Public Sans", sans-serif;
+    border: 1px solid rgb(221, 221, 221);
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+#popup p{
+    font-size: 14px;
+    color: black;
+    margin-bottom: 15px;
+
+}
+.cookieOptions{
+    display: flex;
+}
+
+#accept:hover{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #3496ff;
+    padding: 5px 7px;
+    transition: transform ease-in-out .1s;
+}
+#decline:hover{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #cdcdcd;
+    color: black;
+    padding: 5px 7px;
+    transition: transform ease-in-out .1s;
+}
+#managePreferences:hover{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #690bff;
+    padding: 5px 7px;
+    transition: transform ease-in-out .1s;
+}
+
+#accept{
+    height: 25px;
+    width: 100px;
+    background-color: #007bff;
+    color: white;
+    margin: 3px;
+}
+#savePreferences{
+    height: 25px;
+    width: 150px;
+    background-color: #007bff;
+    color: white;
+    margin: 3px;
+}
+#savePreferences:hover{
+    border-radius: 5px;
+    background-color: #1b7be1;
+    padding: 5px 7px;
+    transition: transform ease-in-out .1s;
+}
+
+#decline{
+    height: 25px;
+    width: 170px;
+    background-color: rgb(229, 229, 229);
+    color: rgb(65, 65, 65);
+    margin: 3px;
+}
+
+#managePreferences{
+    width: 330px;
+    height: 25px;
+    color: white;
+    background-color: rgb(105, 119, 227);
+    margin: 3px;
+}
+
+.preferencesTab label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: rgb(68, 68, 68);
+}
+
+.preferencesTab input[type="checkbox"]:checked{
+    accent-color: #b2d3d1
+}
+
+#google_translate_element{
+    background-color: rgb(74, 101, 255);
+    padding-left: 30px;
+    width: 187px;
+    height: 23px; 
+    overflow: hidden;
+    position: relative;
+}
