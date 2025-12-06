@@ -83,21 +83,6 @@ footer a{
     color: lightskyblue
 }
 
-button{
-    background-color: white;
-    border: none;
-    border-radius: 5px;
-    color: black;
-    transition: transform ease-in-out .1s;
-}
-
-button:hover{
-    width: 160px;
-    height: 20px;
-    background-color: gainsboro;
-    transform: scale(1.1)
-}
-
 .home-back{
     font-family: "Public Sans", sans-serif;
     background-image: url(pyongyang\ back1.png);
@@ -109,8 +94,22 @@ button:hover{
     display: flex;
     gap: 35px;
 }
-.home-buttons1:active{
-    border-color: blue;
+.home-buttons1 button:hover{
+    background-color: gainsboro;
+    transform: scale(1.2)
+}
+.home-buttons1 button{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    transition: transform ease-in-out .1s;
+    height: 27px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.home-buttons1 button:active{
+    color: blue;
 }
 
 .latest-exterior{
@@ -124,8 +123,7 @@ button:hover{
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.80);
     padding: 20px;
-    width: 650px;
-    min-height: 200px;
+    width: 540px;
     border-radius: 20px;
 }
 .topHeadlineExt{
@@ -166,7 +164,9 @@ button:hover{
 
 .center-force{
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
+    gap: 30px;
     padding-top: 100px;
 }
 
@@ -174,3 +174,4 @@ button:hover{
     padding: 45px;
     background-color:rgb(255, 224, 224)
 }
+
