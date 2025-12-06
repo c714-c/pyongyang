@@ -112,3 +112,47 @@
     overflow: hidden;
     position: relative;
 }
+
+
+.dropbtn {
+  background-image: linear-gradient(to right bottom, rgb(243, 168, 168), rgb(238, 187, 91));
+  border-radius: 15px;
+  color: white;
+  padding: 16px 30px 16px 30px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-image: linear-gradient(to right bottom, rgb(211, 125, 125), rgb(184, 149, 84));
+}
+
+.restaurants-dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  padding: 20px;
+  display: none;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: "Public Sans";
+}
+
+.restaurants-dropdown button{
+    font-size: 20px;
+    font-family: "Oswald";
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.show {display:block;}

@@ -175,3 +175,23 @@ footer a{
     background-color:rgb(255, 224, 224)
 }
 
+.tourism{
+    padding: 65px 45px 45px 45px;
+}
+
+.tourism p, .tourism h1{
+    font-family: "Public Sans";
+    display: flex;
+    justify-content: center;
+}
+
+.tourism hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dropdowns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

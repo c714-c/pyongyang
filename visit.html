@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
-<title>Pyongyang NEWS</title>
+<title>Pyongyang Tourism</title>
 
     <div class="preheader">
         <div id="google_translate_element"></div>
@@ -35,40 +35,67 @@
 
 
     <body>
+        <div class="tourism">
         <main>
-            <h1>Restaurants</h1>
-            <h3>Manyongdae Chonsok Restaurant</h3>
-            <img src="restaurants/mangyongdae-rice.jpg">
-            <img src="restaurants/food1.jpg" width="240px">
-            <ul>
-                <li><strong>Address:</strong> XMW6+5VW, Pyongyang, North Korea</li>
-                <li><strong>Phone Number:</strong> +850 2 698 8112</li>
-                <li><strong>Reviews:</strong> &#9733;&#9733;&#9733;&#9733;&#9733; (5.0 / 54 Reviews)</li>
-                <li><strong>Available Hours:</strong> 24 Hours</li>
-            </ul>
+            <h1>Tourist and Visitor Guides</h1>
+            <p>What to do in Pyongyang</p>
+            <hr>
+            <div class="dropdowns">
+                <div class="restaurants-dropdown">
+                    <button onclick="fn_dd1()" class="dropbtn">Restaurants &#9662;</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <h3>Manyongdae Chonsok Restaurant</h3>
+                        <img src="restaurants/mangyongdae-rice.jpg">
+                        <img src="restaurants/food1.jpg" width="240px">
+                        <ul>
+                            <li><strong>Address:</strong> XMW6+5VW, Pyongyang, North Korea</li>
+                            <li><strong>Phone Number:</strong> +850 2 698 8112</li>
+                            <li><strong>Reviews:</strong> &#9733;&#9733;&#9733;&#9733;&#9733; (5.0 / 54 Reviews)</li>
+                            <li><strong>Available Hours:</strong> 24 Hours</li>
+                        </ul>
 
-            <h3>Okryu-gwan Cuisine</h3>
-            <img src="restaurants/food3.jpg" width="240px">
-            <img src="restaurants/food4.jpeg" width="240px">
-            <ul>
-                <li><strong>Address:</strong> 'Jungdu Region', Pyongyang, North Korea</li>
-                <li><strong>Phone Number:</strong> N/A</li>
-                <li><strong>Reviews:</strong> &#9733;&#9733;&#9733;&#9733;&#9733; (5.0 / 23 Reviews)</li>
-                <li><strong>Available Hours:</strong> 24 Hours</li>
-            </ul>
-            
-            <h3>Daedonggang</h3>
-            <img src="restaurants/ddg-food2.png" width="240px">
-            <img src="restaurants/ddg-food1.png" width="240px">
-            <ul>
-                <li><strong>Address:</strong> 2QPC+PGM, Pyongyang, North Korea</li>
-                <li><strong>Phone Number:</strong> N/A</li>
-                <li><strong>Reviews:</strong> &#9733;&#9733;&#9733;&#9733;&#9733; (5.0 / 1 Review)</li>
-                <li><strong>Available Hours:</strong> Everyday 11AM-3PM, 6-9PM</li>
-            </ul>
+                        <h3>Okryu-gwan Cuisine</h3>
+                        <img src="restaurants/food3.jpg" width="240px">
+                        <img src="restaurants/food4.jpeg" width="240px">
+                        <ul>
+                            <li><strong>Address:</strong> 'Jungdu Region', Pyongyang, North Korea</li>
+                            <li><strong>Phone Number:</strong> N/A</li>
+                            <li><strong>Reviews:</strong> &#9733;&#9733;&#9733;&#9733;&#9733; (5.0 / 23 Reviews)</li>
+                            <li><strong>Available Hours:</strong> 24 Hours</li>
+                        </ul>
+                        
+                        <h3>Daedonggang</h3>
+                        <img src="restaurants/ddg-food2.png" width="240px">
+                        <img src="restaurants/ddg-food1.png" width="240px">
+                        <ul>
+                            <li><strong>Address:</strong> 2QPC+PGM, Pyongyang, North Korea</li>
+                            <li><strong>Phone Number:</strong> N/A</li>
+                            <li><strong>Reviews:</strong> &#9733;&#9733;&#9733;&#9733;&#9733; (5.0 / 1 Review)</li>
+                            <li><strong>Available Hours:</strong> Everyday 11AM-3PM, 6-9PM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         </main>
     </body>
 
+    <script>function fn_dd1() {
+        document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+            }
+        }
+        }
+    </script>
 <footer>
         <div class="leftFooter">
             <p>PYONGYANG, NORTH KOREA</p>
