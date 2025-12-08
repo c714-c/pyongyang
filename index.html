@@ -38,7 +38,15 @@
         <main>
             <div class="home-back">
                 <h1>Find what you need in North Korea's Capital.</h1>
-                <p><br></p>
+                <p><i><div class="motto">"Strong and Prosperous Nation. 강성대국 "</div></i></p>
+                    <style>
+                        .motto{
+                            margin-top: 4px;
+                            margin-bottom: 10px;
+                            font-weight: 400;
+                            color: black;
+                        }
+                    </style>
                 <div class="home-buttons1">
                     <button><b>Election Information</b></button>
                     <button><b>Education Enrollment</b></button>
@@ -62,6 +70,24 @@
                         </div>
                     </div>
                     <hr>
+                    <div class="newsletter-ext">
+                        <div class="newsletter-box">
+                            <h4>Stay updated with the news in North Korea. Subscribe to our newsletter, for free.</h4>
+                            <label>
+                                <input type="email" size="36" placeholder="example@email.com"><input type="submit" value="Subscribe">
+                            </label>
+                                <p><span class="italico">NK.news </span><div class="hu">Not a real domain or source. Do not visit.</div></p>
+                            <style>
+                                .italico{
+                                    font-family: "Oswald", sans-serif;
+                                    font-style: oblique;
+                                    font-size: 26px;
+                                    color: red;
+                                    font-weight: 500;
+                                }
+                            </style>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="history">
@@ -103,8 +129,8 @@
         <div class="rightFooter">
             <p>Jobs</p>
             <p>Services</p>
-            <a href="contact.html">Contact Us</a>
-            <p><i>North Korea Travel Agency&reg</i> Homepage</p>
+            <a href="contact.html">Contact Us / FAQs</a>
+            <p><i>North Korea Travel Agency<sup>&reg</sup></i> Homepage</p>
         </div>
     </footer>
 
@@ -118,7 +144,7 @@
         const optionsContainer = document.querySelector('.cookieOptions');
         const preferencesContainer = document.querySelector('.preferencesTab');
 
-        // Made with help from AI
+        // Made with help from AI. Cookies popup.
         const closeBanner = () => {
             banner.style.display = 'none';
             console.log("Cookies: Banner closed. Actions taken.");

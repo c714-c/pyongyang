@@ -119,9 +119,8 @@
     position: relative;
 }
 
-
 .dropbtn {
-  background-image: linear-gradient(to right bottom, rgb(243, 168, 168), rgb(238, 187, 91));
+  background-image: linear-gradient(to right bottom, rgb(242, 144, 144), rgb(238, 187, 91));
   border-radius: 15px;
   color: white;
   padding: 16px 30px 16px 30px;
@@ -131,7 +130,7 @@
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-image: linear-gradient(to right bottom, rgb(211, 125, 125), rgb(184, 149, 84));
+  background-image: linear-gradient(to right bottom, rgb(229, 132, 132), rgb(184, 149, 84));
 }
 
 .restaurants-dropdown {
@@ -159,6 +158,134 @@
   text-decoration: none;
   display: block;
 }
-
 .dropdown-content a:hover {background-color: #ddd;}
+.show {display:block;}
+
+
+.dropbtn2 {
+  background-image: linear-gradient(to right bottom, rgb(168, 243, 224), rgb(62, 156, 233));
+  border-radius: 15px;
+  color: white;
+  padding: 16px 30px 16px 30px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn2:hover, .dropbtn2:focus {
+  background-image: linear-gradient(to right bottom, rgb(81, 188, 161), rgb(41, 120, 184));
+}
+
+.attractions-dropdown {
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  padding: 20px;
+  display: none;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: "Public Sans";
+}
+
+.attractions-dropdown button{
+    font-size: 20px;
+    font-family: "Oswald";
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content2 a:hover {background-color: #ddd;}
+.show {display:block;}
+
+
+.dropbtn3 {
+  background-image: linear-gradient(to right bottom, rgb(239, 111, 188), rgb(157, 0, 255));
+  border-radius: 15px;
+  color: white;
+  padding: 16px 30px 16px 30px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn3:hover, .dropbtn3:focus {
+  background-image: linear-gradient(to right bottom, rgb(191, 53, 136), rgb(113, 29, 165));
+}
+
+.family-dropdown {
+  display: inline-block;
+}
+
+.dropdown-content3 {
+  padding: 20px;
+  display: none;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: "Public Sans";
+}
+
+.family-dropdown button{
+    font-size: 20px;
+    font-family: "Oswald";
+}
+
+.dropdown-content3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content3 a:hover {background-color: #ddd;}
+.show {display:block;}
+
+
+.dropbtn4 {
+  background-image: linear-gradient(to right bottom, rgb(255, 217, 0), rgb(141, 219, 51));
+  border-radius: 15px;
+  color: white;
+  padding: 16px 30px 16px 30px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn4:hover, .dropbtn4:focus {
+  background-image: linear-gradient(to right bottom, rgb(201, 181, 67), rgb(107, 169, 36));
+}
+
+.cultural-dropdown {
+  display: inline-block;
+}
+
+.dropdown-content4 {
+  padding: 20px;
+  display: none;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: "Public Sans";
+}
+
+.cultural-dropdown button{
+    font-size: 20px;
+    font-family: "Oswald";
+}
+
+.dropdown-content4 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content4 a:hover {background-color: #ddd;}
 .show {display:block;}

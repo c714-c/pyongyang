@@ -195,3 +195,48 @@ footer a{
     flex-direction: row;
     justify-content: space-around;
 }
+
+.newsletter-ext{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-box{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 3px black solid;
+    padding: 30px;
+    width: 500px;
+    box-shadow: 15px 15px;
+}
+.newsletter-box label{
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+    padding-bottom: 4px;
+}
+
+.hu{
+    font-size: 9px;
+    color: gray;
+}
+
+.d1, .d2, .d3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.d1{
+    border: 1px rgb(25, 64, 0) solid;
+    background-color: rgba(98, 185, 100, 0.223);
+}
+.d2{
+    border: 1px rgb(220, 162, 75) solid;
+    background-color: rgba(238, 184, 102, 0.151);
+}
+.d3{
+    border: 1px rgb(78, 44, 189) solid;
+    background-color: rgba(108, 48, 187, 0.134);
+}
