@@ -59,7 +59,7 @@ nav a.active{
 
 footer{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 40px;
+    padding: 40px 40px 67px 40px;
     background-color: black;
     color: white;
     line-height: 1.5;
@@ -239,4 +239,21 @@ footer a{
 .d3{
     border: 1px rgb(78, 44, 189) solid;
     background-color: rgba(108, 48, 187, 0.134);
+}
+
+.d4, .d5, .d6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.d4{
+    border: 1px rgb(0, 50, 64) solid;
+    background-color: rgba(77, 195, 227, 0.178);
+}
+.d5{
+    border: 1px rgb(161, 22, 50) solid;
+    background-color: rgba(201, 41, 116, 0.151);
+}
+.d6{
+    border: 1px rgb(79, 113, 0) solid;
+    background-color: rgba(191, 255, 0, 0.199);
 }
