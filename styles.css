@@ -265,7 +265,7 @@ footer a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 3px black solid;
     box-shadow: black 15px 15px;
-    width: 900px;
+    width: 600px;
     padding: 30px;
 }
 .contact-form input[type=submit]{
@@ -276,4 +276,65 @@ footer a{
 }
 .contact-form hr, .contact-form h3{
     margin: 10px;
+}
+
+.iframes-below-ext{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.iframes-below{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.q-message{
+    display: flex;
+    font-size: 19px;
+    font-style: oblique;
+    font-weight: 600;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px;
+    border: 1px red outset;
+}
+
+.all-faq{
+    display: flex;
+    
+}
+
+.faq{
+    width: 700px;
+    font-family: "Oswald", sans-serif;
+    color: darkblue;
+    padding: 50px;
+}
+
+.news{
+    font-family: "Open Sans", sans-serif;
+    padding: 30px;
+}
+.headline1{
+    background-color: rgb(127, 202, 227);
+    padding: 30px;
+    width: 700px;
+    border-radius: 25px 25px 25px 0px;
+}
+.info1{
+    padding: 8px 0px 8px 0px;
+}
+.headline1 h4{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: rgb(255, 255, 255)
+}
+.news-flag{
+    display: flex;
+    justify-content: center;
+}
+.news img{
+    padding-top: 50px;
 }
