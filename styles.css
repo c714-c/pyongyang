@@ -257,3 +257,23 @@ footer a{
     border: 1px rgb(79, 113, 0) solid;
     background-color: rgba(191, 255, 0, 0.199);
 }
+
+.contact-ext{
+    padding: 50px;
+}
+.contact-form{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 3px black solid;
+    box-shadow: black 15px 15px;
+    width: 900px;
+    padding: 30px;
+}
+.contact-form input[type=submit]{
+    margin: 10px;
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.contact-form hr, .contact-form h3{
+    margin: 10px;
+}
